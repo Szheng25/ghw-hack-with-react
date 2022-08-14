@@ -1,5 +1,5 @@
 import React from 'react';
-import './stylesheets/App.css';
+import '../stylesheets/App.css';
 
 function Navbar() {
     return (
@@ -15,7 +15,8 @@ function Navbar() {
             </div>
             <div>
                 <div className='rightSide'>
-
+                    <input type="text" placeholder="search"></input>
+                    <button className='search-button'>Search</button>
                 </div>
             </div>
         </nav>
