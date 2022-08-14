@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <nav className="Navbar">
             <div className='leftSide'>
-                <div className='links' id={showLinks ? "hidden" : ""}>
+                <div className="links" id={showLinks ? "hidden" : ""}>
                     <a href='/'>Home</a>
                     <a href='/about'>About</a>
                     <a href='/contact'>Contact</a>
